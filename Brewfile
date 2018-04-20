@@ -2,6 +2,7 @@
 
 brew 'git'
 brew 'nvm'
+brew 'awscli'
 brew 'thefuck'
 
 tap 'caskroom/cask'
