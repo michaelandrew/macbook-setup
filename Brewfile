@@ -1,6 +1,7 @@
 # Brewfile
 
 brew 'git'
+brew 'nvm'
 brew 'thefuck'
 
 tap 'caskroom/cask'
