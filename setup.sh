@@ -6,5 +6,8 @@
 # Install Brewfile
 brew bundle
 
+# Install RVM
+\curl -sSL https://get.rvm.io | bash -s stable
+
 # Reset Dock
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
