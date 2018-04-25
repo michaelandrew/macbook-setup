@@ -12,5 +12,9 @@ brew bundle
 # Source RVM
 source ~/.rvm/scripts/rvm
 
+# Install Ruby using RVM
+rvm install 2.3
+rvm use 2.3 --default
+
 # Reset Dock
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
