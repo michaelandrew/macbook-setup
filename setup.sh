@@ -16,5 +16,8 @@ source ~/.rvm/scripts/rvm
 rvm install 2.3
 rvm use 2.3 --default
 
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Reset Dock
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
