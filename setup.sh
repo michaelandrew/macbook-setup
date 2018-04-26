@@ -16,6 +16,9 @@ source ~/.rvm/scripts/rvm
 rvm install 2.3
 rvm use 2.3 --default
 
+# Install Relaxed Terminal Theme
+curl -O https://gitcdn.link/repo/mischah/Relaxed/master/themes/Relaxed.terminal
+
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
