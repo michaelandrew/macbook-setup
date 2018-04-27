@@ -22,8 +22,6 @@ curl -O https://gitcdn.link/repo/mischah/Relaxed/master/themes/Relaxed.terminal
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Install Bullet Train Theme
-curl -O http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
 
 # Reset Dock
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
