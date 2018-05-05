@@ -24,6 +24,7 @@ git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-
 
 # Install Node
 nvm install --lts
+nvm use --lts
 
 # Reset Dock
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
