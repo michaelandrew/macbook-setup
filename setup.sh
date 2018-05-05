@@ -19,8 +19,5 @@ source ~/.rvm/scripts/rvm
 rvm install 2.3
 rvm use 2.3 --default
 
-# Install Relaxed Terminal Theme
-curl -O https://gitcdn.link/repo/mischah/Relaxed/master/themes/Relaxed.terminal
-
 # Reset Dock
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
