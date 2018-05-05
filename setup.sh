@@ -22,5 +22,8 @@ rvm use 2.3 --default
 # Instal NVM
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 
+# Install Node
+nvm install node
+
 # Reset Dock
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
