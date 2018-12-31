@@ -27,4 +27,7 @@ nvm install --lts
 nvm use --lts
 
 # Reset Dock
+defaults delete com.apple.dock; killall Dock
+
+# Reset Launchpad
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
