@@ -31,3 +31,6 @@ defaults delete com.apple.dock; killall Dock
 
 # Reset Launchpad
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
+
+# Install Global NPM packages
+npm install --global gatsby-cli
