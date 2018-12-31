@@ -16,6 +16,12 @@ source ~/.rvm/scripts/rvm
 rvm install 2.3
 rvm use 2.3 --default
 
+# Enable RVM auto update
+echo rvm_autoupdate_flag=2 >> ~/.rvmrc
+
+# Source NVM
+source $HOME/.nvm/nvm.sh
+
 # Install Node
 nvm install --lts
 nvm use --lts
