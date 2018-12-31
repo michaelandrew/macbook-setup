@@ -4,6 +4,9 @@ brew 'git'
 brew 'nvm'
 brew 'awscli'
 brew 'thefuck'
+
+tap 'heroku/brew'
+
 brew 'heroku/brew/heroku'
 
 tap 'caskroom/cask'
