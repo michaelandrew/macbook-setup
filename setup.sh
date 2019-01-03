@@ -34,3 +34,6 @@ defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 
 # Install Global NPM packages
 npm install --global gatsby-cli
+
+# Install VS Code Extensions
+code --install-extension esbenp.prettier-vscode
