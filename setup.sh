@@ -37,4 +37,5 @@ npm install --global eslint
 npm install --global gatsby-cli
 
 # Install VS Code Extensions
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
