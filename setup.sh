@@ -39,3 +39,9 @@ npm install --global gatsby-cli
 # Install VS Code Extensions
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
+
+# Copy .bash_profile
+cp .bash_profile ~/.bash_profile
+
+# Source .bashrc
+source ~/.bashrc
