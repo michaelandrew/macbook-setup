@@ -34,6 +34,7 @@ defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 
 # Install Global NPM packages
 npm install --global eslint
+npm install --global typescript
 npm install --global gatsby-cli
 
 # Install VS Code Extensions
