@@ -2,6 +2,7 @@
 
 brew 'git'
 brew 'nvm'
+brew 'heroku'
 brew 'awscli'
 brew 'thefuck'
 
