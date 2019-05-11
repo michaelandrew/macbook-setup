@@ -2,7 +2,6 @@
 
 brew 'git'
 brew 'nvm'
-brew 'heroku'
 brew 'awscli'
 brew 'thefuck'
 
@@ -12,13 +11,10 @@ brew 'heroku/brew/heroku'
 
 tap 'caskroom/cask'
 
-cask 'google-chrome'
-cask 'sequel-pro'
 cask 'slack'
 cask 'docker'
-cask 'visual-studio-code'
-cask '1password'
 cask 'dropbox'
-cask 'vagrant'
-cask 'virtualbox'
 cask 'spotify'
+cask '1password'
+cask 'google-chrome'
+cask 'visual-studio-code'
