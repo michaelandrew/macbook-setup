@@ -12,6 +12,9 @@ mkdir ~/.nvm
 # Copy .bash_profile
 cp .bash_profile ~/.bash_profile
 
+# Source .bash_profile
+source ~/.bash_profile
+
 # Install Node
 nvm install --lts
 nvm use --lts
