@@ -6,28 +6,15 @@
 # Install Brewfile
 brew bundle
 
-# Install RVM
-\curl -sSL https://get.rvm.io | bash -s stable
+# Set up NVM
+mkdir ~/.nvm
 
-# Source RVM
-source ~/.rvm/scripts/rvm
-
-# Install Ruby using RVM
-rvm install 2.3
-rvm use 2.3 --default
-
-# Enable RVM auto update
-echo rvm_autoupdate_flag=2 >> ~/.rvmrc
-
-# Source NVM
-source $HOME/.nvm/nvm.sh
+# Copy .bash_profile
+cp .bash_profile ~/.bash_profile
 
 # Install Node
 nvm install --lts
 nvm use --lts
-
-# Reset Dock
-defaults delete com.apple.dock; killall Dock
 
 # Reset Launchpad
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
@@ -42,8 +29,5 @@ npm install --global @angular/cli
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 
-# Copy .bash_profile
-cp .bash_profile ~/.bash_profile
-
-# Source .bashrc
-source ~/.bashrc
+# Complete Heroku Installation
+heroku autocomplete
