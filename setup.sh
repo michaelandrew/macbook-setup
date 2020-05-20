@@ -10,10 +10,10 @@ brew bundle
 mkdir ~/.nvm
 
 # Copy .bash_profile
-cp .bash_profile ~/.bash_profile
+cp .bash_profile ~/.profile
 
-# Source .bash_profile
-source ~/.bash_profile
+# Source .profile
+source ~/.profile
 
 # Install Node
 nvm install --lts
