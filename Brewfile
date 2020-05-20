@@ -9,8 +9,6 @@ tap 'heroku/brew'
 
 brew 'heroku/brew/heroku'
 
-tap 'caskroom/cask'
-
 cask 'slack'
 cask 'docker'
 cask 'dropbox'
